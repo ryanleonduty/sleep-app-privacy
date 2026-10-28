@@ -20,7 +20,7 @@
   <main>
     <nav><a href="../">← Home</a></nav>
     <h1>Privacy policy</h1>
-    <p class="meta">Effective date: October 15, 2026</p>
+    <p class="meta">Effective date: October 28, 2026</p>
 
     <p>This Privacy Policy explains how Ryan Le handles information in Mamepi Sleep for iPhone and Apple Watch (the “App”). The App has no account and Ryan Le does not operate a server or cloud-sync service for your sleep data.</p>
 
@@ -42,11 +42,16 @@
       <li><strong>Apple services.</strong> HealthKit and App Store transactions remain subject to Apple’s own terms and privacy practices.</li>
     </ul>
 
+    <h2>Retention and deletion</h2>
+    <p>The App does not automatically expire saved sleep history after a set period. Saved sessions and their related corrections remain in the App’s on-device storage until you delete them.</p>
+    <p>When you delete a sleep session imported from Apple Health, the original HealthKit record stays in Apple Health. To prevent that session from silently returning on a later import, Mamepi keeps a local deletion marker with its source and time boundaries. If Apple Health later sends an overlapping record, Mamepi may hold that returned record for your review so you can keep it deleted or add it back.</p>
+    <p>The Erase iPhone sleep data control removes saved sessions and imported-record review markers from iPhone storage. Messages queued for a paired Apple Watch may remain on that Watch until they are acknowledged, so this control does not clear all data from every paired device. To prevent a delayed Watch delivery from restoring an erased app-owned nap, Mamepi retains opaque session IDs in local iPhone storage. These IDs contain no sleep times, stages, or session payload, and the App does not automatically expire them.</p>
+
     <h2>Sharing</h2>
     <p>Ryan Le does not receive your sleep or health data and does not sell it or share it with advertisers. When you explicitly export data, you choose the destination; that destination may handle the export under its own privacy practices. Apple handles HealthKit and App Store transactions under its policies.</p>
 
     <h2>Your controls</h2>
-    <p>You can control HealthKit permissions in Apple Health and iOS Settings. You can export or erase the App’s data in Settings → Privacy &amp; data. Deleting data from the App does not delete the original HealthKit records managed by Apple Health.</p>
+    <p>In Mamepi, open Settings → About → Privacy to find this policy and the Export my data and Erase iPhone sleep data controls. You can control HealthKit permissions in Apple Health and iOS Settings.</p>
 
     <h2>Children</h2>
     <p>The App is not directed to children under 13. It is intended for general adult consumer use and is not a medical device or medical advice service.</p>
